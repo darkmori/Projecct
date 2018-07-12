@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView layoutX="5.0" layoutY="48.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="52.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="45.0">
+        <columns>
+            <TableColumn prefWidth="100.0" text="번호" />
+          <TableColumn minWidth="15.0" prefWidth="100.0" text="이름" />
+            <TableColumn prefWidth="290.0" text="시간" />
+            <TableColumn prefWidth="100.0" text="출결" />
+        </columns>
+      </TableView>
+      <Button layoutX="531.0" layoutY="363.0" mnemonicParsing="false" text="출석" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="60.0" />
+      <Button layoutX="505.0" layoutY="362.0" mnemonicParsing="false" text="퇴근" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="10.0" />
+   </children>
+</AnchorPane>

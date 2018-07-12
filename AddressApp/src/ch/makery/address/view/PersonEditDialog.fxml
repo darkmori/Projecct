@@ -38,7 +38,7 @@
 				<TextField fx:id="birthdayField" GridPane.columnIndex="1" GridPane.rowIndex="5" />
 			</children>
 		</GridPane>
-		<Button layoutX="316.0" layoutY="250.0" mnemonicParsing="false" onAction="#handleCancel" prefHeight="35.0" prefWidth="95.0" text="Cancel" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="20.0" />
-		<Button layoutX="295.0" layoutY="297.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleOk" prefHeight="35.0" prefWidth="95.0" text="OK" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="125.0" />
+		<Button cancelButton="true" layoutX="316.0" layoutY="250.0" mnemonicParsing="false" onAction="#handleCancel" prefHeight="35.0" prefWidth="95.0" text="Cancel" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="20.0" />
+		<Button defaultButton="true" layoutX="295.0" layoutY="297.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleOk" prefHeight="35.0" prefWidth="95.0" text="OK" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="125.0" />
 	</children>
 </AnchorPane>
